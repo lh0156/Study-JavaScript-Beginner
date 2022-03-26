@@ -2,11 +2,11 @@
 //연산하기 전에 우선 숫자로 변환
 //변환된 값으로 연산
 
-//Undefine -> NaN
-//Null -> +0
-//Boolean -> true: 1 false: 0
+// Undefine -> NaN
+// Null -> +0
+// Boolean -> true: 1 false: 0
 // Number: 변환 전, 후 같음
-// string 값이 숫자이면 숫자로 연산, 단, 더하기(+)는 연결
+// String 값이 숫자이면 숫자로 연산, 단, 더하기(+)는 연결
 
 var value;
 console.log(value + 10);
