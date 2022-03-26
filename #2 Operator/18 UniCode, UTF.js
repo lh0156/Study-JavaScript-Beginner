@@ -14,7 +14,28 @@
     - JS는 u앞에 역슬래시(\) 작성
 */
 
-console.log("\u0031");
-console.log("\u0041");
-console.log("\u1101");
-console.log("\uac01");
+console.log("\u0031"); // = 1
+console.log("\u0041"); // = A
+console.log("\u1101"); // = ㄱ
+console.log("\uac01"); // = 각
+
+/*
+    역슬래시(\)를 문자로 표시하려면 역슬래시 (\\)2개 작성
+*/
+
+console.log("\\u0031");
+console.log("\\u0031");
+
+//ES6에서 표기 방법 추가됨(ES5에서는 4자리였으나, ES6에서는 5자리 지원!)
+
+/*
+
+    UTF(Unicode Transformation Format)
+    - 유니코드의 코드 포인트를 매핑하는 방법
+    - UTF-8, UTF-16, UTF-32로 표기
+    - <meta charset="utf-8">
+    - UTF-8은 8비트로 코드 포인트 매핑
+    - 8비트 인코딩(Encoding)이라고 부름
+    - 반대로 디코딩도 있다!
+
+*/
