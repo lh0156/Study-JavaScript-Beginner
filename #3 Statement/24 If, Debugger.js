@@ -39,7 +39,9 @@
     ES5부터 지원
     debugger 실행
 */
+debugger;
 
 var sports = "스포츠";
-debugger;
 console.log(sports);
+
+//여러군데 작성해서 테스트하고, 지워가면서 활용함
