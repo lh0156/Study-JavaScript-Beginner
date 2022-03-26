@@ -10,3 +10,10 @@
 
 console.log(1 === 1 ? "같음" : "다름");
 console.log(1 === "1" ? "같음" : "다름");
+
+/*
+    연산자 우선순위
+    ECMA-262 스펙에 없음
+    우선 순위가 가장 높은 것은 ()
+    MDN OPrator precedence에 있음!
+*/
