@@ -53,6 +53,8 @@ var book = {
 /*
 
     프로퍼티 추가, 변경
+    
+    점(.)과 프로퍼티 이름 사용법
     오브젝트에 프로퍼티 추가, 변경
         - var obj = {};
         - obj.abc = 123;
@@ -69,3 +71,15 @@ person.goodBoy = 'Yunseop';
 console.log(person);
 
 //오 된다!!!
+
+
+/* 대괄호 사용법 */
+var book = {};
+book["title"] = "js책";
+
+/* abc 변수 이름 작성법 */
+
+var book = {title: "JS책"};
+var varName = "title";
+book[varName] = "HTML책";
+console.log(book);
