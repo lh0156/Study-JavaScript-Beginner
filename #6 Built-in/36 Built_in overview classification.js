@@ -51,3 +51,9 @@ var obj = Number;
 console.log("Number.lenght:", Number.length);
 console.log("Number.isNan(123)", Number.isNaN(123));
 
+/*
+
+    이제 빌트인에서 제공하는 프로퍼티들을 공부하게 될 예정!
+    ex:) prototype이 머임???
+
+*/
