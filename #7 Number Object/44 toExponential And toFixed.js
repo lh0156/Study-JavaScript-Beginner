@@ -53,6 +53,7 @@ console.log(value.toExponential(3));
         // 소수 보이지 말고 반올림하셈 ㅋ
 
         console.log(value.toFixed(5));
+        // 소수 5자리까지 보이셈 ㅋ
 
 /*
         - 변환 대상 자릿수보다 파라미터 값이 크면 나머지를 0으로 채워 반환
