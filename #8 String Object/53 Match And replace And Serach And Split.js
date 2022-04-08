@@ -71,3 +71,15 @@ console.log("12_34_56".split("_"));
 
 var value = "123";
 console.log(value.split(""));
+//빈문자열 작성시 하나씩 자름
+
+console.log(value.split());
+//안적으면 안자름
+
+var value = "12_34_56_78"
+console.log(value.split(_), 3);
+//두번째 파라미터에 숫자를 작성하면 앞에서부터 수 만큼만 반환
+
+var value = "128947_as9d87";
+console.log(value.split("A"));
+// 분리자가 문자열에 없으면 하나의 배열로 반환함
