@@ -21,6 +21,28 @@ console.log(value.charCodeAt(30));
 
     data위치에 String 오브젝트 작성
 
+    작성 방법
+    data 위치에 String 오브젝트 작성
+    변환 대상 값을 작성하지 않음
+
  */
 
     console.log(String.fromCharCode(49, 65, 97, 44032));
+
+    /*
+    
+    localeCompare()
+
+    값을 비교하여 위치를 나타내는 값으로 반환
+    위치 값: 1(앞), 0(같음), -1(뒤)
+
+    */
+
+    var value = "나";
+    console.log(value.localeCompare("가"));
+    console.log(value.localeCompare("나"));
+    console.log(value.localeCompare("다"));
+
+    //0 앞에 있다
+    //1 같다
+    //-1 뒤에있다
