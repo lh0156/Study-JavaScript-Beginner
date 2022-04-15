@@ -92,7 +92,7 @@ console.log(obj instanceof Object);
 /*
 
     Object()와 Object 리터럴{}모두 Object 인스턴스를 생성합니다
-    그래서 Object()를 사용하지 안혹 간단하게 {}를 사용합니다.
+    그래서 Object()를 사용하지 말고 간단하게 {}를 사용합니다.
 
 */
 
